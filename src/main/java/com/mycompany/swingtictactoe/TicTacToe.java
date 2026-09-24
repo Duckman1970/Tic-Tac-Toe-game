@@ -82,14 +82,15 @@ public class TicTacToe {
             } else if ((part1.equals("O")) && (part2.equals("O")) && (part3.equals("O"))) {
                 this.result(this.getPlayerO());
                 return;
-            } 
-            if (this.checkDraw()) {
-               int draw = JOptionPane.showConfirmDialog(null,"Draw :(","",JOptionPane.DEFAULT_OPTION);
-               if (draw == JOptionPane.CLOSED_OPTION) {
-                   System.exit(0);
-               } else {
-                  this.reset();
-               }
+            }
+        }
+        
+        if (this.checkDraw()) {
+            int draw = JOptionPane.showConfirmDialog(null, "Draw :(", "", JOptionPane.DEFAULT_OPTION);
+            if (draw == JOptionPane.CLOSED_OPTION) {
+                System.exit(0);
+            } else {
+                this.reset();
             }
         }
     }
@@ -149,16 +150,12 @@ public class TicTacToe {
     }
     
     public boolean checkDraw() {
-        boolean answer = true;
         for (JButton btn: this.positions) {
-            if ((btn.getText().isEmpty()) || !(this.winner.equals(""))) {
-                answer = false;
-                break;
-            } else {
-                answer = true;
+            if ((btn.getText().isEmpty())) {
+                return false;
             }
         }
-        return answer;
+        return true;
     }
     
     public int playerTurn() {
