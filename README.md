@@ -16,7 +16,7 @@ This is a simple tic tac toe game i made in java using swing library, this game 
 java -jar SwingTicTacToe-1.0-SNAPSHOT.jar
 ```
 
-##Examples
+## Examples
 
 ## License
 
