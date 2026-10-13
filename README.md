@@ -1,6 +1,6 @@
 # Tic-tac-toe-game
 
-This is a simple tic tac toe game that i made in java using swing library, this game must be played between 2 players
+This is a simple tic tac toe game i made in java using swing library, this game must be played between 2 players
 
 ## Requirements
 
@@ -15,6 +15,8 @@ This is a simple tic tac toe game that i made in java using swing library, this 
 ```sh
 java -jar SwingTicTacToe-1.0-SNAPSHOT.jar
 ```
+
+##Examples
 
 ## License
 
