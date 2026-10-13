@@ -15,3 +15,9 @@ This is a simple tic tac toe game that i made in java using swing library, this 
 ```sh
 java -jar SwingTicTacToe-1.0-SNAPSHOT.jar
 ```
+
+## License
+
+This project is licensed under the MIT license
+
+- Read the [license](LICENSE) for more details
