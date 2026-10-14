@@ -18,6 +18,12 @@ java -jar SwingTicTacToe-1.0-SNAPSHOT.jar
 
 ## Examples
 
+![tic-tac-toe game](./examples/example1.png)
+<br>
+![tic-tac-toe game](./examples/example2.png)
+<br>
+![tic-tac-toe game](./examples/example3.png)
+
 ## License
 
 This project is licensed under the MIT license
